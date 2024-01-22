@@ -1,6 +1,6 @@
 from pathlib import Path
 
-PATH = Path(__file__).resolve().parent / "Day_1_Not_Quite_Lisp_input.txt"
+PATH = Path(__file__).resolve().parent / "part_1.txt"
 
 with PATH.open("r") as file:
     entrada = file.read().strip()
