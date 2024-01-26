@@ -1,10 +1,10 @@
 from hashlib import md5
 
 
-def hash(input):
+def hash(input: str):
     return md5(input.encode()).hexdigest()
 
-def calcular_menor_valor(input, total_leading_zeros):
+def calcular_menor_valor(input: str, total_leading_zeros: int):
     prefixo = '0' * total_leading_zeros
     sufixo = 1
 
